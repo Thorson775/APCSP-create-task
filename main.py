@@ -21,7 +21,7 @@ while play_again == "Yes":
         print("lets get started")
         print("We will each roll a dice three times and see who can roll a higher total score based on what value the dice lands on each time. For example if I roll a 2 then a 3 then a 4, my total is 9. If you roll a sum of 7 I win.")
         proceed = input("is that cool with you? Yes or No?") 
-        if proceed == "Yes":  # Fixed the colon
+        if proceed == "Yes": 
             print("I will go first")
             collected_numbersC = roll_dice_game()
             print("I rolled:", collected_numbersC)
